@@ -159,5 +159,5 @@ const themeLabel = document.getElementById("theme-label");
 
 toggleSwitch.addEventListener("change", () => {
   document.body.classList.toggle("light-mode");
-  themeLabel.textContent = toggleSwitch.checked ? "Light Mode" : "Dark Mode";
+  themeLabel.textContent = toggleSwitch.checked ? "Dark Mode" : "Light Mode";
 });
